@@ -33,3 +33,37 @@ button:hover {
     height: 130px;
     margin-bottom: 10px;
 }
+.sidebar{
+    width: 200px;
+    height: 100vh;
+    background: #333;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li{
+    /*20px acima e abaixo opx a direita e esquerda*/
+    margin: 10px 0;
+}
+.sidebar ul li a{
+color: #f7faf9;
+text-decoration: none;
+cursor: pointer;
+}
+.container{
+     /*capacidade de um elemento crescer */
+
+    flex-grow: 1;
+    padding: 20PX;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
